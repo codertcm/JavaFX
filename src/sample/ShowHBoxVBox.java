@@ -36,7 +36,7 @@ public class ShowHBoxVBox extends Application {
         hBox.setStyle("−fx−background−color: gold");
         hBox.getChildren().add(new Button("Computer Science"));
         hBox.getChildren().add(new Button("Chemistry"));
-        ImageView imageView = new ImageView(new Image(String.valueOf(new File("C:\\Users\\20222\\IdeaProjects\\JavaFX\\src\\sample\\images\\aaa.jpg"))));
+        ImageView imageView = new ImageView(new Image("https://github.com/codertcm/JavaFX/blob/master/src/sample/images/aaa.gif"));
         hBox.getChildren().add(imageView);
         return hBox;
     }
