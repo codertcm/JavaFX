@@ -14,7 +14,7 @@ public class ShowImage extends Application {
         // Create a pane to hold the image views
         Pane pane = new HBox(10);
         pane.setPadding(new Insets(5, 5, 5, 5));
-        Image image = new Image("aaa.jpg");
+        Image image = new Image("aaa.gif");
         pane.getChildren().add(new ImageView(image));
 
         ImageView imageView2 = new ImageView(image);
